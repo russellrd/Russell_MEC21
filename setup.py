@@ -8,7 +8,7 @@ if sys.platform == 'win32':
 
 cx_Freeze.setup(
     name="VSVS",
-    options={"build_exe": {"packages": ["tkinter", "cv2", "PIL"]}},
+    options={"build_exe": {"packages": ["tkinter", "cv2", "PIL"], "include_files": "Tesseract-OCR"}},
     version="0.01",
     description="Very Secure Voting System",
     executables=[cx_Freeze.Executable(

@@ -1,3 +1,5 @@
 pillow
 opencv-python
 cx_Freeze
+pytesseract
+xlrd
